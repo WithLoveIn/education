@@ -1,0 +1,67 @@
+header{
+	background-image: linear-gradient(to right,#17ba3a,#178244);
+	border-bottom:rgb(74, 255, 68) 3px solid;
+	min-height:10vh;
+	width:100%;
+}
+main, .section1, .main_section{
+	min-height: 80vh;
+}
+footer{
+	background-image: linear-gradient(to right,#17ba3a,#178244);
+	border-top:rgb(74, 255, 68) 3px solid;
+	min-height:10vh;
+	width:100%;
+}
+li{
+	list-style-type: none;
+}
+header a{
+	color: #fff !important;
+	font-size:20px;
+}
+img[alt="prof"]{
+	height:400px;
+}
+.aside{
+	background-image: linear-gradient(to right,#17ba3a,#178244);
+	border:rgb(74, 255, 68) 3px solid;
+	border-radius: 0px 15px 15px 0px;
+}
+.aside a{
+	text-decoration: none;
+	color: #fff;
+	font-size:20px;
+}
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+.scrollmenu::-webkit-scrollbar {
+	height: 0px; 
+	width: 0; 
+}
+.scrollmenu { 
+	-ms-overflow-style: none; 
+}
+.scrollmenu { 
+	overflow: -moz-scrollbars-none; 
+}
+img[alt="sertificate"]{
+	height:200px;
+}
+.wrapper{
+	border:rgb(74, 255, 68) 3px solid;
+	border-radius: 15px;
+}
+.right{
+	font-weight: 900;
+	color: green;
+}
+.wrong{
+	font-weight: 900;
+	color: red;
+}
+#help{
+	font-size: 12px;
+}
